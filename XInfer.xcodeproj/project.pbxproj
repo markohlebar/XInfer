@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961DBEF41B38B8D300B4417A /* XINIssueCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBEEF1B38B8D300B4417A /* XINIssueCellView.m */; };
+		961DBEF51B38B8D300B4417A /* XINIssueCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 961DBEF01B38B8D300B4417A /* XINIssueCellView.xib */; };
+		961DBEF61B38B8D300B4417A /* XINIssueListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBEF21B38B8D300B4417A /* XINIssueListViewController.m */; };
+		961DBEF71B38B8D300B4417A /* XINIssueListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 961DBEF31B38B8D300B4417A /* XINIssueListViewController.xib */; };
+		961DBF291B38B92200B4417A /* BNDConcreteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBEFB1B38B92200B4417A /* BNDConcreteView.m */; };
+		961DBF2A1B38B92200B4417A /* BNDConcreteViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBEFD1B38B92200B4417A /* BNDConcreteViewModel.m */; };
+		961DBF321B38B92200B4417A /* BNDAsyncValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBF121B38B92200B4417A /* BNDAsyncValueTransformer.m */; };
+		961DBF331B38B92200B4417A /* BNDBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBF141B38B92200B4417A /* BNDBinding.m */; };
+		961DBF341B38B92200B4417A /* BNDCommandBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBF161B38B92200B4417A /* BNDCommandBinding.m */; };
+		961DBF351B38B92200B4417A /* BNDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBF1B1B38B92200B4417A /* BNDParser.m */; };
+		961DBF361B38B92200B4417A /* BNDSpecialKeyPathHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBF1D1B38B92200B4417A /* BNDSpecialKeyPathHandler.m */; };
+		961DBF5E1B38BDE300B4417A /* NSObject+NODE.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBF5B1B38BDE300B4417A /* NSObject+NODE.m */; };
+		961DBF621B38BE2B00B4417A /* NSString+BNDKeyPathHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBF611B38BE2B00B4417A /* NSString+BNDKeyPathHandling.m */; };
+		961DBF651B38BE4500B4417A /* NSTableView+BNDBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DBF641B38BE4500B4417A /* NSTableView+BNDBinding.m */; };
+		965422071B392C6100960A10 /* XINIssueListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 965422061B392C6100960A10 /* XINIssueListViewModel.m */; };
+		9654220A1B39305D00960A10 /* XINIssueCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 965422091B39305D00960A10 /* XINIssueCellViewModel.m */; };
 		967724081B36C15F007CEF19 /* XINIssueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 967724071B36C15F007CEF19 /* XINIssueView.m */; };
 		9677240C1B36C414007CEF19 /* XINIssueRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9677240B1B36C414007CEF19 /* XINIssueRenderer.m */; };
 		968AA76A1B3551C800C95807 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968AA7691B3551C800C95807 /* AppKit.framework */; };
@@ -15,6 +31,8 @@
 		968AA7741B3551C800C95807 /* XInfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 968AA7731B3551C800C95807 /* XInfer.m */; };
 		968AA77C1B3553FC00C95807 /* NSString+XCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 968AA77B1B3553FC00C95807 /* NSString+XCAdditions.m */; };
 		96A32B401B358B89008AC613 /* XINIssueCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A32B3F1B358B89008AC613 /* XINIssueCache.m */; };
+		96A8F2601B39266C0086CF65 /* XINIssueWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A8F25E1B39266C0086CF65 /* XINIssueWindowController.m */; };
+		96A8F2611B39266C0086CF65 /* XINIssueWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A8F25F1B39266C0086CF65 /* XINIssueWindowController.xib */; };
 		96CB469B1B35731D0015A7D6 /* MHXcodeDocumentNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CB46661B35731C0015A7D6 /* MHXcodeDocumentNavigator.m */; };
 		96CB469C1B35731D0015A7D6 /* NSString+XCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CB466B1B35731C0015A7D6 /* NSString+XCAdditions.m */; };
 		96CB469D1B35731D0015A7D6 /* XCProject+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CB466D1B35731C0015A7D6 /* XCProject+Extensions.m */; };
@@ -42,6 +60,43 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		961DBEEE1B38B8D300B4417A /* XINIssueCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XINIssueCellView.h; path = Classes/View/XINIssueCellView.h; sourceTree = "<group>"; };
+		961DBEEF1B38B8D300B4417A /* XINIssueCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XINIssueCellView.m; path = Classes/View/XINIssueCellView.m; sourceTree = "<group>"; };
+		961DBEF01B38B8D300B4417A /* XINIssueCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XINIssueCellView.xib; path = Classes/View/XINIssueCellView.xib; sourceTree = "<group>"; };
+		961DBEF11B38B8D300B4417A /* XINIssueListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XINIssueListViewController.h; path = Classes/View/XINIssueListViewController.h; sourceTree = "<group>"; };
+		961DBEF21B38B8D300B4417A /* XINIssueListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XINIssueListViewController.m; path = Classes/View/XINIssueListViewController.m; sourceTree = "<group>"; };
+		961DBEF31B38B8D300B4417A /* XINIssueListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XINIssueListViewController.xib; path = Classes/View/XINIssueListViewController.xib; sourceTree = "<group>"; };
+		961DBEFA1B38B92200B4417A /* BNDConcreteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDConcreteView.h; sourceTree = "<group>"; };
+		961DBEFB1B38B92200B4417A /* BNDConcreteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDConcreteView.m; sourceTree = "<group>"; };
+		961DBEFC1B38B92200B4417A /* BNDConcreteViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDConcreteViewModel.h; sourceTree = "<group>"; };
+		961DBEFD1B38B92200B4417A /* BNDConcreteViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDConcreteViewModel.m; sourceTree = "<group>"; };
+		961DBEFE1B38B92200B4417A /* BIND.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIND.h; sourceTree = "<group>"; };
+		961DBF111B38B92200B4417A /* BNDAsyncValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDAsyncValueTransformer.h; sourceTree = "<group>"; };
+		961DBF121B38B92200B4417A /* BNDAsyncValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDAsyncValueTransformer.m; sourceTree = "<group>"; };
+		961DBF131B38B92200B4417A /* BNDBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDBinding.h; sourceTree = "<group>"; };
+		961DBF141B38B92200B4417A /* BNDBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDBinding.m; sourceTree = "<group>"; };
+		961DBF151B38B92200B4417A /* BNDCommandBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDCommandBinding.h; sourceTree = "<group>"; };
+		961DBF161B38B92200B4417A /* BNDCommandBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDCommandBinding.m; sourceTree = "<group>"; };
+		961DBF181B38B92200B4417A /* BNDMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDMacros.h; sourceTree = "<group>"; };
+		961DBF1A1B38B92200B4417A /* BNDParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDParser.h; sourceTree = "<group>"; };
+		961DBF1B1B38B92200B4417A /* BNDParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDParser.m; sourceTree = "<group>"; };
+		961DBF1C1B38B92200B4417A /* BNDSpecialKeyPathHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDSpecialKeyPathHandler.h; sourceTree = "<group>"; };
+		961DBF1D1B38B92200B4417A /* BNDSpecialKeyPathHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDSpecialKeyPathHandler.m; sourceTree = "<group>"; };
+		961DBF1F1B38B92200B4417A /* BNDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDCommand.h; sourceTree = "<group>"; };
+		961DBF201B38B92200B4417A /* BNDDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDDataController.h; sourceTree = "<group>"; };
+		961DBF211B38B92200B4417A /* BNDSpecialKeyPathHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDSpecialKeyPathHandling.h; sourceTree = "<group>"; };
+		961DBF221B38B92200B4417A /* BNDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDView.h; sourceTree = "<group>"; };
+		961DBF231B38B92200B4417A /* BNDViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDViewModel.h; sourceTree = "<group>"; };
+		961DBF281B38B92200B4417A /* BNDBindingTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDBindingTypes.h; sourceTree = "<group>"; };
+		961DBF3D1B38BC8000B4417A /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		961DBF4A1B38BC8000B4417A /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		961DBF5A1B38BDE300B4417A /* NSObject+NODE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NODE.h"; sourceTree = "<group>"; };
+		961DBF5B1B38BDE300B4417A /* NSObject+NODE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NODE.m"; sourceTree = "<group>"; };
+		961DBF5D1B38BDE300B4417A /* NODE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NODE.h; sourceTree = "<group>"; };
+		961DBF601B38BE2B00B4417A /* NSString+BNDKeyPathHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BNDKeyPathHandling.h"; sourceTree = "<group>"; };
+		961DBF611B38BE2B00B4417A /* NSString+BNDKeyPathHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BNDKeyPathHandling.m"; sourceTree = "<group>"; };
+		961DBF631B38BE4500B4417A /* NSTableView+BNDBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTableView+BNDBinding.h"; sourceTree = "<group>"; };
+		961DBF641B38BE4500B4417A /* NSTableView+BNDBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTableView+BNDBinding.m"; sourceTree = "<group>"; };
 		9626ED591B36BA0700D1D152 /* DVTSourceTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DVTSourceTextView.h; path = Dump/DVTSourceTextView.h; sourceTree = "<group>"; };
 		9626ED5A1B36BB0100D1D152 /* DVTCompletingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTCompletingTextView.h; path = Dump/DVTCompletingTextView.h; sourceTree = "<group>"; };
 		9626ED5B1B36BB0100D1D152 /* DVTCompletingTextViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DVTCompletingTextViewDelegate-Protocol.h"; path = "Dump/DVTCompletingTextViewDelegate-Protocol.h"; sourceTree = "<group>"; };
@@ -61,6 +116,10 @@
 		9626ED691B36BBC500D1D152 /* NSAnimationDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSAnimationDelegate-Protocol.h"; path = "Dump/NSAnimationDelegate-Protocol.h"; sourceTree = "<group>"; };
 		9626ED6A1B36BBDC00D1D152 /* NSLayoutManagerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSLayoutManagerDelegate-Protocol.h"; path = "Dump/NSLayoutManagerDelegate-Protocol.h"; sourceTree = "<group>"; };
 		9626ED6B1B36BC4700D1D152 /* NSObject-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSObject-Protocol.h"; path = "Dump/NSObject-Protocol.h"; sourceTree = "<group>"; };
+		965422051B392C6100960A10 /* XINIssueListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XINIssueListViewModel.h; path = Classes/ViewModel/XINIssueListViewModel.h; sourceTree = "<group>"; };
+		965422061B392C6100960A10 /* XINIssueListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XINIssueListViewModel.m; path = Classes/ViewModel/XINIssueListViewModel.m; sourceTree = "<group>"; };
+		965422081B39305D00960A10 /* XINIssueCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XINIssueCellViewModel.h; path = Classes/ViewModel/XINIssueCellViewModel.h; sourceTree = "<group>"; };
+		965422091B39305D00960A10 /* XINIssueCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XINIssueCellViewModel.m; path = Classes/ViewModel/XINIssueCellViewModel.m; sourceTree = "<group>"; };
 		967724061B36C15F007CEF19 /* XINIssueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XINIssueView.h; path = Classes/View/XINIssueView.h; sourceTree = "<group>"; };
 		967724071B36C15F007CEF19 /* XINIssueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XINIssueView.m; path = Classes/View/XINIssueView.m; sourceTree = "<group>"; };
 		9677240A1B36C414007CEF19 /* XINIssueRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XINIssueRenderer.h; path = Classes/Controller/XINIssueRenderer.h; sourceTree = "<group>"; };
@@ -76,6 +135,9 @@
 		968AA77B1B3553FC00C95807 /* NSString+XCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XCAdditions.m"; sourceTree = "<group>"; };
 		96A32B3E1B358B89008AC613 /* XINIssueCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XINIssueCache.h; path = Classes/Model/XINIssueCache.h; sourceTree = "<group>"; };
 		96A32B3F1B358B89008AC613 /* XINIssueCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XINIssueCache.m; path = Classes/Model/XINIssueCache.m; sourceTree = "<group>"; };
+		96A8F25D1B39266C0086CF65 /* XINIssueWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XINIssueWindowController.h; path = Classes/View/XINIssueWindowController.h; sourceTree = "<group>"; };
+		96A8F25E1B39266C0086CF65 /* XINIssueWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XINIssueWindowController.m; path = Classes/View/XINIssueWindowController.m; sourceTree = "<group>"; };
+		96A8F25F1B39266C0086CF65 /* XINIssueWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XINIssueWindowController.xib; path = Classes/View/XINIssueWindowController.xib; sourceTree = "<group>"; };
 		96CB46651B35731C0015A7D6 /* MHXcodeDocumentNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHXcodeDocumentNavigator.h; sourceTree = "<group>"; };
 		96CB46661B35731C0015A7D6 /* MHXcodeDocumentNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHXcodeDocumentNavigator.m; sourceTree = "<group>"; };
 		96CB46671B35731C0015A7D6 /* XCFXcodePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFXcodePrivate.h; sourceTree = "<group>"; };
@@ -144,6 +206,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		961DBEF81B38B92200B4417A /* BIND */ = {
+			isa = PBXGroup;
+			children = (
+				961DBF601B38BE2B00B4417A /* NSString+BNDKeyPathHandling.h */,
+				961DBF611B38BE2B00B4417A /* NSString+BNDKeyPathHandling.m */,
+				961DBEF91B38B92200B4417A /* Abstractions */,
+				961DBEFE1B38B92200B4417A /* BIND.h */,
+				961DBF101B38B92200B4417A /* Classes */,
+				961DBF171B38B92200B4417A /* Macros */,
+				961DBF191B38B92200B4417A /* Private */,
+				961DBF1E1B38B92200B4417A /* Protocols */,
+				961DBF271B38B92200B4417A /* Types */,
+			);
+			path = BIND;
+			sourceTree = "<group>";
+		};
+		961DBEF91B38B92200B4417A /* Abstractions */ = {
+			isa = PBXGroup;
+			children = (
+				961DBEFA1B38B92200B4417A /* BNDConcreteView.h */,
+				961DBEFB1B38B92200B4417A /* BNDConcreteView.m */,
+				961DBEFC1B38B92200B4417A /* BNDConcreteViewModel.h */,
+				961DBEFD1B38B92200B4417A /* BNDConcreteViewModel.m */,
+			);
+			path = Abstractions;
+			sourceTree = "<group>";
+		};
+		961DBF101B38B92200B4417A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				961DBF631B38BE4500B4417A /* NSTableView+BNDBinding.h */,
+				961DBF641B38BE4500B4417A /* NSTableView+BNDBinding.m */,
+				961DBF111B38B92200B4417A /* BNDAsyncValueTransformer.h */,
+				961DBF121B38B92200B4417A /* BNDAsyncValueTransformer.m */,
+				961DBF131B38B92200B4417A /* BNDBinding.h */,
+				961DBF141B38B92200B4417A /* BNDBinding.m */,
+				961DBF151B38B92200B4417A /* BNDCommandBinding.h */,
+				961DBF161B38B92200B4417A /* BNDCommandBinding.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		961DBF171B38B92200B4417A /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				961DBF181B38B92200B4417A /* BNDMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		961DBF191B38B92200B4417A /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				961DBF1A1B38B92200B4417A /* BNDParser.h */,
+				961DBF1B1B38B92200B4417A /* BNDParser.m */,
+				961DBF1C1B38B92200B4417A /* BNDSpecialKeyPathHandler.h */,
+				961DBF1D1B38B92200B4417A /* BNDSpecialKeyPathHandler.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		961DBF1E1B38B92200B4417A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				961DBF1F1B38B92200B4417A /* BNDCommand.h */,
+				961DBF201B38B92200B4417A /* BNDDataController.h */,
+				961DBF211B38B92200B4417A /* BNDSpecialKeyPathHandling.h */,
+				961DBF221B38B92200B4417A /* BNDView.h */,
+				961DBF231B38B92200B4417A /* BNDViewModel.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		961DBF271B38B92200B4417A /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				961DBF281B38B92200B4417A /* BNDBindingTypes.h */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		961DBF381B38BC8000B4417A /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				961DBF3D1B38BC8000B4417A /* EXTKeyPathCoding.h */,
+				961DBF4A1B38BC8000B4417A /* metamacros.h */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		961DBF581B38BDE300B4417A /* NODE */ = {
+			isa = PBXGroup;
+			children = (
+				961DBF591B38BDE300B4417A /* Categories */,
+				961DBF5D1B38BDE300B4417A /* NODE.h */,
+			);
+			path = NODE;
+			sourceTree = "<group>";
+		};
+		961DBF591B38BDE300B4417A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				961DBF5A1B38BDE300B4417A /* NSObject+NODE.h */,
+				961DBF5B1B38BDE300B4417A /* NSObject+NODE.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		9626ED581B36B9BE00D1D152 /* Dump */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,8 +343,17 @@
 		9626ED6C1B36C10000D1D152 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				961DBEEE1B38B8D300B4417A /* XINIssueCellView.h */,
+				961DBEEF1B38B8D300B4417A /* XINIssueCellView.m */,
+				961DBEF01B38B8D300B4417A /* XINIssueCellView.xib */,
+				961DBEF11B38B8D300B4417A /* XINIssueListViewController.h */,
+				961DBEF21B38B8D300B4417A /* XINIssueListViewController.m */,
+				961DBEF31B38B8D300B4417A /* XINIssueListViewController.xib */,
 				967724061B36C15F007CEF19 /* XINIssueView.h */,
 				967724071B36C15F007CEF19 /* XINIssueView.m */,
+				96A8F25D1B39266C0086CF65 /* XINIssueWindowController.h */,
+				96A8F25E1B39266C0086CF65 /* XINIssueWindowController.m */,
+				96A8F25F1B39266C0086CF65 /* XINIssueWindowController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -182,8 +361,10 @@
 		9626F5421B358648001A82AB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				965422031B3928AE00960A10 /* Categories */,
 				967724091B36C3F3007CEF19 /* Controller */,
 				9626ED6C1B36C10000D1D152 /* View */,
+				965422041B392C1D00960A10 /* ViewModel */,
 				9626F5431B35864F001A82AB /* Model */,
 			);
 			name = Classes;
@@ -198,6 +379,26 @@
 				96EAF0B51B35874700EF70DE /* XINIssue.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		965422031B3928AE00960A10 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				968AA77A1B3553FC00C95807 /* NSString+XCAdditions.h */,
+				968AA77B1B3553FC00C95807 /* NSString+XCAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		965422041B392C1D00960A10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				965422051B392C6100960A10 /* XINIssueListViewModel.h */,
+				965422061B392C6100960A10 /* XINIssueListViewModel.m */,
+				965422081B39305D00960A10 /* XINIssueCellViewModel.h */,
+				965422091B39305D00960A10 /* XINIssueCellViewModel.m */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		967724091B36C3F3007CEF19 /* Controller */ = {
@@ -238,10 +439,8 @@
 		968AA76D1B3551C800C95807 /* XInfer */ = {
 			isa = PBXGroup;
 			children = (
-				9626F5421B358648001A82AB /* Classes */,
 				96CB46631B35731C0015A7D6 /* Third Party */,
-				968AA77A1B3553FC00C95807 /* NSString+XCAdditions.h */,
-				968AA77B1B3553FC00C95807 /* NSString+XCAdditions.m */,
+				9626F5421B358648001A82AB /* Classes */,
 				968AA7721B3551C800C95807 /* XInfer.h */,
 				968AA7731B3551C800C95807 /* XInfer.m */,
 				968AA76E1B3551C800C95807 /* Supporting Files */,
@@ -261,6 +460,9 @@
 		96CB46631B35731C0015A7D6 /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
+				961DBF581B38BDE300B4417A /* NODE */,
+				961DBF381B38BC8000B4417A /* extobjc */,
+				961DBEF81B38B92200B4417A /* BIND */,
 				9626ED581B36B9BE00D1D152 /* Dump */,
 				96CB46641B35731C0015A7D6 /* Benoit */,
 				96CB46681B35731C0015A7D6 /* XCodeEditor */,
@@ -406,6 +608,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				968AA7711B3551C800C95807 /* XInfer.xcscheme in Resources */,
+				96A8F2611B39266C0086CF65 /* XINIssueWindowController.xib in Resources */,
+				961DBEF51B38B8D300B4417A /* XINIssueCellView.xib in Resources */,
+				961DBEF71B38B8D300B4417A /* XINIssueListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,34 +622,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				968AA77C1B3553FC00C95807 /* NSString+XCAdditions.m in Sources */,
+				961DBF5E1B38BDE300B4417A /* NSObject+NODE.m in Sources */,
+				961DBF621B38BE2B00B4417A /* NSString+BNDKeyPathHandling.m in Sources */,
 				96CB46AB1B35731D0015A7D6 /* XCProject.m in Sources */,
+				965422071B392C6100960A10 /* XINIssueListViewModel.m in Sources */,
 				96CB46B01B35731D0015A7D6 /* XCWorkspace.m in Sources */,
+				96A8F2601B39266C0086CF65 /* XINIssueWindowController.m in Sources */,
 				96A32B401B358B89008AC613 /* XINIssueCache.m in Sources */,
 				96CB46AD1B35731D0015A7D6 /* XCSourceFileDefinition.m in Sources */,
+				961DBEF61B38B8D300B4417A /* XINIssueListViewController.m in Sources */,
+				9654220A1B39305D00960A10 /* XINIssueCellViewModel.m in Sources */,
 				96CB469D1B35731D0015A7D6 /* XCProject+Extensions.m in Sources */,
 				96CB46A21B35731D0015A7D6 /* XCBuildConfiguration.m in Sources */,
 				968AA7741B3551C800C95807 /* XInfer.m in Sources */,
+				961DBF341B38B92200B4417A /* BNDCommandBinding.m in Sources */,
+				961DBF2A1B38B92200B4417A /* BNDConcreteViewModel.m in Sources */,
 				96CB46A91B35731D0015A7D6 /* XcodeSourceFileType.m in Sources */,
 				96CB46AA1B35731D0015A7D6 /* XCProject+SubProject.m in Sources */,
 				96CB46A11B35731D0015A7D6 /* XCAbstractDefinition.m in Sources */,
 				96CB469C1B35731D0015A7D6 /* NSString+XCAdditions.m in Sources */,
 				96CB46AF1B35731D0015A7D6 /* XCTarget.m in Sources */,
+				961DBF291B38B92200B4417A /* BNDConcreteView.m in Sources */,
+				961DBEF41B38B8D300B4417A /* XINIssueCellView.m in Sources */,
 				96CB46A01B35731D0015A7D6 /* XCKeyBuilder.m in Sources */,
 				96EAF0B61B35874700EF70DE /* XINIssue.m in Sources */,
 				96CB46A31B35731D0015A7D6 /* XCBuildSettings.m in Sources */,
 				96CB46A71B35731D0015A7D6 /* XCGroup.m in Sources */,
 				96CB46B41B3573F50015A7D6 /* NSString+Extensions.m in Sources */,
+				961DBF351B38B92200B4417A /* BNDParser.m in Sources */,
 				96CB46A81B35731D0015A7D6 /* XcodeMemberType.m in Sources */,
 				96CB46AC1B35731D0015A7D6 /* XCSourceFile.m in Sources */,
+				961DBF321B38B92200B4417A /* BNDAsyncValueTransformer.m in Sources */,
 				967724081B36C15F007CEF19 /* XINIssueView.m in Sources */,
+				961DBF361B38B92200B4417A /* BNDSpecialKeyPathHandler.m in Sources */,
 				96CB46A61B35731D0015A7D6 /* XCFrameworkDefinition.m in Sources */,
 				96CB46A41B35731D0015A7D6 /* XCClassDefinition.m in Sources */,
 				96CB469B1B35731D0015A7D6 /* MHXcodeDocumentNavigator.m in Sources */,
 				9677240C1B36C414007CEF19 /* XINIssueRenderer.m in Sources */,
 				96CB469F1B35731D0015A7D6 /* XCTarget+XCProject.m in Sources */,
 				96CB46AE1B35731D0015A7D6 /* XCSubProjectDefinition.m in Sources */,
+				961DBF331B38B92200B4417A /* BNDBinding.m in Sources */,
 				96CB46B11B35731D0015A7D6 /* XCXibDefinition.m in Sources */,
 				96CB46A51B35731D0015A7D6 /* XCFileOperationQueue.m in Sources */,
+				961DBF651B38BE4500B4417A /* NSTableView+BNDBinding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

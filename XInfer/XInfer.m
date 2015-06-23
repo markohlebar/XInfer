@@ -13,6 +13,8 @@
 #import "XINIssueCache.h"
 #import "DVTSourceTextView.h"
 #import "XINIssueRenderer.h"
+#import "XINIssueWindowController.h"
+#import "XINIssueListViewModel.h"
 
 static XInfer *sharedPlugin;
 
@@ -21,6 +23,8 @@ static XInfer *sharedPlugin;
 @property (nonatomic, strong, readwrite) NSBundle *bundle;
 @property (nonatomic, strong) NSOperationQueue *inferQueue;
 @property (nonatomic, strong) XINIssueRenderer *issueRenderer;
+@property (nonatomic, strong) XINIssueWindowController *windowController;
+@property (nonatomic, strong) XINIssueListViewModel *viewModel;
 
 @end
 
@@ -52,6 +56,8 @@ static XInfer *sharedPlugin;
             [self addMenuItem];
             [self addObservers];
             [self collectAndRenderCurrentIssues];
+            
+            _viewModel = [XINIssueListViewModel new];
         });
     }
     return self;
@@ -110,6 +116,8 @@ static NSString *const kXInferXcodeBuildBuild = @"build";
     };
     
     [self.inferQueue addOperation:operation];
+    
+    [self displayWindow];
 }
 
 - (void)collectAndRenderCurrentIssues {
@@ -120,6 +128,10 @@ static NSString *const kXInferXcodeBuildBuild = @"build";
             [self presentIssues:issues];
         });
     }
+}
+
+- (void)displayWindow {
+    self.windowController = [XINIssueWindowController presentWithViewModel:self.viewModel];
 }
 
 - (NSArray *)collectIssues {
@@ -139,6 +151,8 @@ static NSString *const kXInferXcodeBuildBuild = @"build";
 - (void)presentIssues:(NSArray *)issues {
     self.issueRenderer = [XINIssueRenderer rendererWithIssues:issues];
     self.issueRenderer.currentTextView = [MHXcodeDocumentNavigator currentSourceCodeTextView];
+    
+    self.viewModel.issues = issues;
 }
 
 - (void)dealloc {

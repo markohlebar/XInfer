@@ -221,7 +221,11 @@ static NSString * const MHXCUserStatePathFormat = @"xcuserdata/%@.xcuserdatad/Us
 }
 
 + (XCWorkspace *)currentWorkspace {
-   return [XCWorkspace workspaceWithFilePath:[self currentWorkspacePath]];
+    NSString *filePath = [self currentWorkspacePath];
+    if (!filePath) {
+        return nil;
+    }
+    return [XCWorkspace workspaceWithFilePath:filePath];
 }
 
 + (XCTarget *)currentTarget {
