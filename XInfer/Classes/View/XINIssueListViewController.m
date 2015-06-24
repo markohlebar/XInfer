@@ -11,24 +11,15 @@
 #import "XINIssueCellView.h"
 #import "XINIssueListViewModel.h"
 
-@interface XINIssueListViewController () <NSTableViewDataSource, NSTableViewDelegate, NSPopoverDelegate>
+@interface XINIssueListViewController () <NSTableViewDataSource, NSTableViewDelegate>
 @property (weak) IBOutlet NSTableView *tableView;
 @property (nonatomic, strong) BNDBinding *reloadDataBinding;
 @end
 
 @implementation XINIssueListViewController
 BINDINGS(XINIssueListViewModel,
-         BINDViewModel(children, ~>, tableView.onReloadData),
+         BINDViewModel(rowViewModels, ~>, tableView.onReloadData),
          nil)
-
-static NSPanel *_panel;
-static NSPopover *_popover;
-
-+ (instancetype)viewControllerWithViewModel:(BNDViewModel *)viewModel {
-    XINIssueListViewController *contentViewController = [[XINIssueListViewController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:self]];
-    contentViewController.viewModel = viewModel;
-    return contentViewController;
-}
 
 #pragma mark - NSTableViewDelegate / NSTableViewDataSource
 
@@ -94,10 +85,6 @@ static NSPopover *_popover;
             cell.textField.placeholderString = @"modelView.text -> model.text";
         }
     });
-}
-
-- (void)popoverDidClose:(NSNotification *)notification {
-    _popover = nil;
 }
 
 @end

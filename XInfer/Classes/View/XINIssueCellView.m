@@ -8,20 +8,14 @@
 
 #import "XINIssueCellView.h"
 #import "BIND.h"
+#import "XINIssueCellViewModel.h"
 
 @interface XINIssueCellView ()
-@property (weak) IBOutlet NSTextField *textField;
+@property (weak) IBOutlet NSTextFieldCell *textFieldCell;
 @end
 
 @implementation XINIssueCellView
-
-- (void)awakeFromNib {
-    [self loadBindings];
-}
-
-- (void)loadBindings {
-    BNDBinding *binding = [BNDBinding bindingWithBIND:@"viewModel.BIND <> textField.text | BNDNilToEmptyStringTransformer"];
-    self.bindings = @[binding];
-}
-
+BINDINGS(XINIssueCellViewModel,
+         BINDViewModel(text, ~>, textFieldCell.stringValue),
+         nil)
 @end

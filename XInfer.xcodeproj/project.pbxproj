@@ -343,14 +343,14 @@
 		9626ED6C1B36C10000D1D152 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				967724061B36C15F007CEF19 /* XINIssueView.h */,
+				967724071B36C15F007CEF19 /* XINIssueView.m */,
 				961DBEEE1B38B8D300B4417A /* XINIssueCellView.h */,
 				961DBEEF1B38B8D300B4417A /* XINIssueCellView.m */,
 				961DBEF01B38B8D300B4417A /* XINIssueCellView.xib */,
 				961DBEF11B38B8D300B4417A /* XINIssueListViewController.h */,
 				961DBEF21B38B8D300B4417A /* XINIssueListViewController.m */,
 				961DBEF31B38B8D300B4417A /* XINIssueListViewController.xib */,
-				967724061B36C15F007CEF19 /* XINIssueView.h */,
-				967724071B36C15F007CEF19 /* XINIssueView.m */,
 				96A8F25D1B39266C0086CF65 /* XINIssueWindowController.h */,
 				96A8F25E1B39266C0086CF65 /* XINIssueWindowController.m */,
 				96A8F25F1B39266C0086CF65 /* XINIssueWindowController.xib */,

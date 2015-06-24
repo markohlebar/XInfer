@@ -9,20 +9,23 @@
 #import "XINIssueListViewModel.h"
 #import "XINIssue.h"
 #import "XINIssueCellViewModel.h"
+#import "NSObject+NODE.h"
+
+@interface XINIssueListViewModel ()
+@property (nonatomic, strong) NSArray *rowViewModels;
+@end
 
 @implementation XINIssueListViewModel
-
-- (NSArray *)rowViewModels {
-    return self.children;
-}
 
 - (void)setIssues:(NSArray *)issues {
     _issues = issues;
     
-    [self removeAllChildren];
+    NSMutableArray *children = [NSMutableArray new];
     [issues enumerateObjectsUsingBlock:^(XINIssue *issue, NSUInteger idx, BOOL * __nonnull stop) {
-        [self addChild:[XINIssueCellViewModel viewModelWithModel:issue]];
+        [children addObject:[XINIssueCellViewModel viewModelWithModel:issue]];
     }];
+    
+    self.rowViewModels = children.copy;
 }
 
 @end

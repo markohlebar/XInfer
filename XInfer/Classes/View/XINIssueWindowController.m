@@ -21,6 +21,7 @@
     [windowController showWindow:[NSApp mainWindow]];
     
     XINIssueListViewController *viewController = [[XINIssueListViewController alloc] initWithNibName:nil bundle:[NSBundle bundleForClass:self]];
+    viewController.viewModel = viewModel;
     windowController.window.contentViewController = viewController;
     
     return windowController;

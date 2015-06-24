@@ -11,6 +11,4 @@
 
 @interface XINIssueListViewController : BNDViewController
 
-+ (instancetype)viewControllerWithViewModel:(BNDViewModel *)viewModel;
-
 @end

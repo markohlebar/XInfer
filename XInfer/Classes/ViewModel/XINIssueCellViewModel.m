@@ -14,4 +14,13 @@
 BINDINGS(XINIssue,
          BINDModel(message, ~>, text),
          nil);
+
+- (NSString *)identifier {
+    static NSString *_identifier = nil;
+    if (!_identifier) {
+        _identifier = @"XINIssueCellView";
+    }
+    return _identifier;
+}
+
 @end
